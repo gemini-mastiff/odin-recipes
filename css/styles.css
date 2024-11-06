@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4a4e69;
+    color: #e1dee3;
+}
+
+/* Link Styling */
+
+a{
+    color: #d1ac00;
+    text-decoration: none;
+}
+
+a:hover,
+a:visited{
+    color: #ee6c4d;
+    text-decoration: underline;
+}
+
+a:active{
+    color: #e1dee3;
+}
+
+/* Normal Conatiner Styling */
+
+.container{
+    background-color: #22223b;
+    border: 1px solid #d1ac00;
+    font-size: 20px;
+    width: 100%;
+}
+
+.title-box{
+    text-align: center;
+}
+
+.title-box h1{
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.recipe-menu{
+    border: 1px solid #d1ac00;
+    font-size: 16px;
+    margin: 10px 20%;
+    width: 60%;
+}
