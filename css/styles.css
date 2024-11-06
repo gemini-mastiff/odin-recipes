@@ -28,6 +28,13 @@ a:active{
     color: #e1dee3;
 }
 
+/* Horizontal Line Styling */
+
+hr{
+   border: 1px dashed #4a4e69;
+
+}
+
 /* Normal Conatiner Styling */
 
 .container{
@@ -36,6 +43,8 @@ a:active{
     font-size: 20px;
     width: 100%;
 }
+
+/* Title Box Styling */
 
 .title-box{
     text-align: center;
@@ -81,12 +90,13 @@ a:active{
 }
 
 .recipe-card .desc{
-    margin-top: -18px;
+    margin-top: -12px;
+    margin-bottom: 12px;
 }
 
 .recipe-card h3{
     text-decoration: underline;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .recipe-card h4{
