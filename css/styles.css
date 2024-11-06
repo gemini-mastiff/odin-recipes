@@ -39,7 +39,7 @@ hr{
 
 .container{
     background-color: #22223b;
-    border: 1px solid #d1ac00;
+    border: 2px solid #d1ac00;
     font-size: 20px;
     width: 100%;
 }
@@ -55,10 +55,14 @@ hr{
     margin-bottom: 0px;
 }
 
+.title-box hr{
+    border: solid #4a4e69 1px;
+    width: 60%;
+}
+
 /* Recipe Menu Styling */
 
 .recipe-menu{
-    border: 1px solid #d1ac00;
     font-size: 16px;
     margin: 10px auto;
     width: 60%;
@@ -67,17 +71,16 @@ hr{
 /* Home Button Styling */
 
 .title-box .home-button{
-    text-transform: uppercase;
     font-style: italic;
+    text-transform: uppercase;
     padding: 10px;
 }
 
 /* Recipe Card Styling */
 
 .recipe-card{
-    
-    width: 80%;
     margin: auto;
+    width: 80%;
 }
 
 .recipe-card .recipe-text{
@@ -95,8 +98,8 @@ hr{
 }
 
 .recipe-card h3{
-    text-decoration: underline;
     margin-top: 30px;
+    text-decoration: underline;
 }
 
 .recipe-card h4{
@@ -110,9 +113,9 @@ hr{
 
 .recipe-card img{
     display: block;
-    margin: 20px auto;
     border: #ee6c4d 6px solid;
     width: 50%;
+    margin: 20px auto;
 }
 
 /* Footer Styling */
