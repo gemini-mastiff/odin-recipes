@@ -109,21 +109,19 @@ hr{
 
 .recipe-card h3{
     margin-top: 30px;
+    margin-bottom: -10px;
     text-decoration: underline;
 }
 
 .recipe-card h4{
     font-style: italic;
-}
-
-.recipe-card ul,
-.recipe-card ol{
-    margin-top: -20px;
+    margin-top: 25px;
+    margin-bottom: -15px;
 }
 
 .recipe-card ul li{
     list-style-type: none;
-    margin-left: -28px;
+    margin-left: -24px;
 }
 
 .recipe-card img{
