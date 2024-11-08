@@ -3,6 +3,8 @@ body{
     background-color: #4a4e69;
     color: #e1dee3;
     font-size: 18px;
+    margin: 0;
+    padding: 0;
 }
 
 /* Header Styling */
@@ -48,16 +50,24 @@ hr{
 
 .title-box{
     text-align: center;
+    margin: 0 0 10 0;
+    padding-top: 20px;
+    border: none;
 }
 
 .title-box h1{
     font-size: 36px;
-    margin-bottom: 0px;
+    margin: 0px;
 }
 
 .title-box hr{
     border: solid #4a4e69 1px;
     width: 60%;
+}
+
+.title-box p{
+    padding: 10px;
+    margin-top: -10px;
 }
 
 /* Recipe Menu Styling */
@@ -79,7 +89,7 @@ hr{
 /* Recipe Card Styling */
 
 .recipe-card{
-    margin: auto;
+    margin: 0 auto;
     width: 80%;
 }
 
@@ -109,6 +119,11 @@ hr{
 .recipe-card ul,
 .recipe-card ol{
     margin-top: -20px;
+}
+
+.recipe-card ul li{
+    list-style-type: none;
+    margin-left: -28px;
 }
 
 .recipe-card img{
